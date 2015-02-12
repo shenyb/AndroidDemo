@@ -4,9 +4,9 @@ package syb.cn.myapplication;
  * Created by shenyb on 15-2-12.
  */
 public class User {
-    private  String name ;
+    private String name;
     private int age;
-    private  int id;
+    private int id;
     private int sex;
 
     public String getName() {
@@ -31,5 +31,13 @@ public class User {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
     }
 }
