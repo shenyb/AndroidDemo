@@ -6,8 +6,8 @@ package syb.cn.myapplication;
 public class User {
     private String name;
     private int age;
-    private int id;
-    private int sex2;
+    private  int id;
+    private int sex4;
 
     public String getName() {
         return name;
@@ -32,5 +32,4 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
-
 }
