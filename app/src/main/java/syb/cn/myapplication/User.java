@@ -7,7 +7,7 @@ public class User {
     private  String name ;
     private int age;
     private  int id;
-    private int sex;
+    private int sex4;
 
     public String getName() {
         return name;
@@ -25,11 +25,5 @@ public class User {
         this.age = age;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+   
 }
