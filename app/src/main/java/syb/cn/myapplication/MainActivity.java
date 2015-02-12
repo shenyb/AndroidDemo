@@ -6,8 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.google.gson.Gson;
-
 
 public class MainActivity extends ActionBarActivity {
 
@@ -16,16 +14,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView mt = (TextView)findViewById(R.id.mt);
-        Gson gson = new Gson();
-        User user = new User();
-        user.setName("shenyb");
-        user.setAge(27);
-        user.setId(1);
-        String json = gson.toJson(user);
-       String tree = gson.toJsonTree(user).toString();
-        //JSONObject obj=new JSONObject();
-        //JSONObject.fromObject(user);
-        mt.setText(json);
     }
 
     @Override
